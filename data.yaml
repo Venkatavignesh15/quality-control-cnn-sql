@@ -1,0 +1,13 @@
+train: D:/ML-PROJECTS/PCB Defect Detection1/train/images
+val: D:/ML-PROJECTS/PCB Defect Detection1/valid/images
+test: D:/ML-PROJECTS/PCB Defect Detection1/test/images
+
+nc: 6
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
+
+roboflow:
+  workspace: rahul-jhj03
+  project: pcb-defects-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rahul-jhj03/pcb-defects-dataset/dataset/2
